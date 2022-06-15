@@ -18,7 +18,9 @@ const Cardshow = ({ item }) => {
   useEffect(() => {}, [items]);
   return (
     <div>
-      <h1 className="text-right text-danger my-5 ">My Cards</h1>
+      <div className="my-5">
+      <h1 className="heading">My Cards</h1>
+      </div>
       <CardGroup>
         {item?.map((x, index) => {
           return (
